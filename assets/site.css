@@ -213,3 +213,24 @@ a { color: inherit; }
 .code-mixed { color: #245ca6; }
 .code-translation { color: #555369; }
 .sample-code { color: #245ca6; border: 1.5px solid currentColor; background: #fff; }
+
+/* Match the compact HTML embed on the index. */
+.label-card .code, .sample-code {
+  display: inline-flex;
+  align-items: center;
+  padding: .4em .7em;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  background: #fff;
+  font: 700 13px/1.2 system-ui, sans-serif;
+  letter-spacing: normal;
+  text-decoration: none;
+}
+.label-card:focus-visible, .sample-code:focus-visible { outline: 3px solid #211e3b; outline-offset: 3px; }
+
+/* Keep explanations beside the compact label pills. */
+.label-grid, .label-grid-three { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.label-card { min-height: 70px; padding: 12px 14px; gap: 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.label-card:hover { border-color: #c8c1e3; background: #fff; box-shadow: 0 10px 25px rgba(33,30,59,.07); }
+.card-copy strong, .card-copy small { white-space: normal; overflow: visible; }
+@media (max-width: 760px) { .label-grid, .label-grid-three { grid-template-columns: 1fr; } }

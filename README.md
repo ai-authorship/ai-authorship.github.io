@@ -59,3 +59,13 @@ See the [website embed guide](how-to-use.md) for copyable HTML snippets that lin
 ## License and disclaimer
 
 The original documentation and label descriptions in this repository are licensed under [CC BY 4.0](LICENSE.md). The labels are optional, self-reported disclosures, not licenses for the text carrying them. See [DISCLAIMER.md](DISCLAIMER.md) for details.
+
+## Preview locally
+
+On a Mac with Homebrew Ruby 3.2 installed, start the local preview from the repository directory:
+
+```sh
+PATH="/opt/homebrew/opt/ruby@3.2/bin:$PATH" BUNDLE_PATH=vendor/bundle bundle exec jekyll serve
+```
+
+Open <http://127.0.0.1:4000/>. The site rebuilds when you save changes; press Ctrl+C to stop the server. On a new checkout, run `PATH="/opt/homebrew/opt/ruby@3.2/bin:$PATH" BUNDLE_PATH=vendor/bundle bundle install` first. For other installations, put a compatible Ruby and Bundler on your PATH and run `bundle install` followed by `bundle exec jekyll serve`.
