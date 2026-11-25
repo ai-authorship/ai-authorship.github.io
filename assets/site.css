@@ -202,3 +202,14 @@ a { color: inherit; }
   .page-content pre { padding: 15px; }
   .page-content pre code { font-size: 11px; }
 }
+
+/* Compact, high-contrast label links. */
+.label-grid, .label-grid-three { display: flex; flex-wrap: wrap; gap: 10px; }
+.label-card { min-height: 0; padding: 0; border: 0; border-radius: 8px; background: transparent; }
+.label-card:hover { background: transparent; box-shadow: none; }
+.code { min-width: 0; padding: 9px 14px; border: 1.5px solid currentColor; background: #fff; font-size: 13px; }
+.code-human { color: #13744c; }
+.code-ai { color: #a54508; }
+.code-mixed { color: #245ca6; }
+.code-translation { color: #555369; }
+.sample-code { color: #245ca6; border: 1.5px solid currentColor; background: #fff; }

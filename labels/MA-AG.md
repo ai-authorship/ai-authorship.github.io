@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # MA-AG — Mixed-authored, AI grammar and proofreading
 
 A human and AI both contributed to writing the content, and the human co-author reviewed it. AI’s grammar and proofreading assistance was limited to corrections.

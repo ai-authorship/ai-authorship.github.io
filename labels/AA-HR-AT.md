@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AA-HR-AT — AI-authored, human-reviewed and AI-translated
 
 The content was drafted mostly by AI and reviewed by a human, then translated by AI.

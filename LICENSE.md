@@ -1,3 +1,9 @@
+---
+layout: default
+---
+
+# License
+
 Except where otherwise noted, the original documentation and label descriptions in this repository are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 SPDX-License-Identifier: CC-BY-4.0

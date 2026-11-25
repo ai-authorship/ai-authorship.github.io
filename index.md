@@ -48,12 +48,12 @@ description: A clear, adaptable way to tell readers how people and AI contribute
       <div><h3>Human-authored</h3><p>Written by a person, with the listed AI assistance.</p></div>
     </div>
     <div class="label-grid">
-      <a class="label-card" href="{{ '/labels/HA.html' | relative_url }}"><span class="code code-human">HA</span><span class="card-copy"><strong>Human-authored</strong><small>No AI involvement</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/HA-AT.html' | relative_url }}"><span class="code code-human">HA-AT</span><span class="card-copy"><strong>AI translation</strong><small>Human-written and reviewed</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/HA-AR.html' | relative_url }}"><span class="code code-human">HA-AR</span><span class="card-copy"><strong>AI review</strong><small>Reviewed by human and AI</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/HA-AR-AT.html' | relative_url }}"><span class="code code-human">HA-AR-AT</span><span class="card-copy"><strong>AI review + translation</strong><small>Human-written and reviewed</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/HA-AG.html' | relative_url }}"><span class="code code-human">HA-AG</span><span class="card-copy"><strong>Grammar and proofreading</strong><small>AI corrections only</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/HA-AG-AT.html' | relative_url }}"><span class="code code-human">HA-AG-AT</span><span class="card-copy"><strong>Corrections + translation</strong><small>Human-written and reviewed</small></span><span class="card-arrow">↗</span></a>
+      <a class="label-card" href="{{ '/labels/HA.html' | relative_url }}"><span class="code code-human">HA</span></a>
+      <a class="label-card" href="{{ '/labels/HA-AT.html' | relative_url }}"><span class="code code-human">HA-AT</span></a>
+      <a class="label-card" href="{{ '/labels/HA-AR.html' | relative_url }}"><span class="code code-human">HA-AR</span></a>
+      <a class="label-card" href="{{ '/labels/HA-AR-AT.html' | relative_url }}"><span class="code code-human">HA-AR-AT</span></a>
+      <a class="label-card" href="{{ '/labels/HA-AG.html' | relative_url }}"><span class="code code-human">HA-AG</span></a>
+      <a class="label-card" href="{{ '/labels/HA-AG-AT.html' | relative_url }}"><span class="code code-human">HA-AG-AT</span></a>
     </div>
   </div>
 
@@ -63,9 +63,9 @@ description: A clear, adaptable way to tell readers how people and AI contribute
       <div><h3>AI-authored</h3><p>Drafted by AI, with human review noted where present.</p></div>
     </div>
     <div class="label-grid label-grid-three">
-      <a class="label-card" href="{{ '/labels/AA.html' | relative_url }}"><span class="code code-ai">AA</span><span class="card-copy"><strong>AI-authored</strong><small>No human review indicated</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/AA-HR.html' | relative_url }}"><span class="code code-ai">AA-HR</span><span class="card-copy"><strong>Human-reviewed</strong><small>AI drafted; human adapted</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/AA-HR-AT.html' | relative_url }}"><span class="code code-ai">AA-HR-AT</span><span class="card-copy"><strong>Reviewed + translated</strong><small>AI drafted; human reviewed</small></span><span class="card-arrow">↗</span></a>
+      <a class="label-card" href="{{ '/labels/AA.html' | relative_url }}"><span class="code code-ai">AA</span></a>
+      <a class="label-card" href="{{ '/labels/AA-HR.html' | relative_url }}"><span class="code code-ai">AA-HR</span></a>
+      <a class="label-card" href="{{ '/labels/AA-HR-AT.html' | relative_url }}"><span class="code code-ai">AA-HR-AT</span></a>
     </div>
   </div>
 
@@ -75,12 +75,12 @@ description: A clear, adaptable way to tell readers how people and AI contribute
       <div><h3>Mixed-authored</h3><p>Both human and AI contributed to the writing.</p></div>
     </div>
     <div class="label-grid">
-      <a class="label-card" href="{{ '/labels/MA.html' | relative_url }}"><span class="code code-mixed">MA</span><span class="card-copy"><strong>Mixed-authored</strong><small>Human co-author reviewed</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/MA-AT.html' | relative_url }}"><span class="code code-mixed">MA-AT</span><span class="card-copy"><strong>AI translation</strong><small>Mixed-authored text</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/MA-AR.html' | relative_url }}"><span class="code code-mixed">MA-AR</span><span class="card-copy"><strong>Human and AI review</strong><small>Both contributed to writing</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/MA-AR-AT.html' | relative_url }}"><span class="code code-mixed">MA-AR-AT</span><span class="card-copy"><strong>Review + translation</strong><small>Reviewed by human and AI</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/MA-AG.html' | relative_url }}"><span class="code code-mixed">MA-AG</span><span class="card-copy"><strong>Grammar and proofreading</strong><small>AI corrections only</small></span><span class="card-arrow">↗</span></a>
-      <a class="label-card" href="{{ '/labels/MA-AG-AT.html' | relative_url }}"><span class="code code-mixed">MA-AG-AT</span><span class="card-copy"><strong>Corrections + translation</strong><small>Mixed-authored text</small></span><span class="card-arrow">↗</span></a>
+      <a class="label-card" href="{{ '/labels/MA.html' | relative_url }}"><span class="code code-mixed">MA</span></a>
+      <a class="label-card" href="{{ '/labels/MA-AT.html' | relative_url }}"><span class="code code-mixed">MA-AT</span></a>
+      <a class="label-card" href="{{ '/labels/MA-AR.html' | relative_url }}"><span class="code code-mixed">MA-AR</span></a>
+      <a class="label-card" href="{{ '/labels/MA-AR-AT.html' | relative_url }}"><span class="code code-mixed">MA-AR-AT</span></a>
+      <a class="label-card" href="{{ '/labels/MA-AG.html' | relative_url }}"><span class="code code-mixed">MA-AG</span></a>
+      <a class="label-card" href="{{ '/labels/MA-AG-AT.html' | relative_url }}"><span class="code code-mixed">MA-AG-AT</span></a>
     </div>
   </div>
 
@@ -90,20 +90,7 @@ description: A clear, adaptable way to tell readers how people and AI contribute
       <div><h3>Authorship unspecified</h3><p>Translation is disclosed; who wrote the source is not.</p></div>
     </div>
     <div class="label-grid label-grid-three">
-      <a class="label-card" href="{{ '/labels/AT.html' | relative_url }}"><span class="code code-translation">AT</span><span class="card-copy"><strong>AI-translated</strong><small>Authorship unspecified</small></span><span class="card-arrow">↗</span></a>
+      <a class="label-card" href="{{ '/labels/AT.html' | relative_url }}"><span class="code code-translation">AT</span></a>
     </div>
   </div>
 </section>
-
-<section class="principles" id="principles">
-  <div class="principles-heading">
-    <p class="eyebrow eyebrow-dark">A simple framework</p>
-    <h2>Tell readers what happened.<br><span>Let them decide what it means.</span></h2>
-  </div>
-  <div class="principle-list">
-    <article><span class="principle-index">A</span><div><h3>Describe the process</h3><p>Authorship, review, proofreading, and translation are separate contributions. The codes make those distinctions visible.</p></div></article>
-    <article><span class="principle-index">B</span><div><h3>Keep the claim honest</h3><p>Labels are opt-in and unverified. Their usefulness depends on accurate, transparent disclosure.</p></div></article>
-    <article><span class="principle-index">C</span><div><h3>Adapt it freely</h3><p>Use this system as a starting point and adapt it for your own way of generating AI content, under CC BY 4.0.</p></div></article>
-  </div>
-</section>
-

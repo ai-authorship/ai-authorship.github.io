@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AA-HR — AI-authored, human-reviewed
 
 The content was drafted mostly by AI from human-provided context and a prompt. A human reviewed and adapted it to their views and style.

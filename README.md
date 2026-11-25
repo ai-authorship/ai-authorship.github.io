@@ -2,7 +2,7 @@
 
 This project describes a compact label system for disclosing how people and AI contributed to a piece of text. It is inspired by the clarity of Creative Commons labels: a short code identifies the kind of authorship, review, and language work involved, while a linked page explains what that code means.
 
-The system is designed to be adapted. You may modify it to describe your own ways of generating content with AI, under the terms in [LICENSE](LICENSE). Credit Ludovico Caldara and this project, link to the license, and indicate what you changed.
+The system is designed to be adapted. You may modify it to describe your own ways of generating content with AI, under the terms in [LICENSE](LICENSE.md). Credit Ludovico Caldara and this project, link to the license, and indicate what you changed.
 
 The labels describe a text’s production process. They are disclosures, not judgments about quality, originality, or whether a text is trustworthy. A label should be chosen to match what actually happened, and readers should not have to infer an unmentioned review step.
 
@@ -58,4 +58,4 @@ See the [website embed guide](how-to-use.md) for copyable HTML snippets that lin
 
 ## License and disclaimer
 
-The original documentation and label descriptions in this repository are licensed under [CC BY 4.0](LICENSE). The labels are optional, self-reported disclosures, not licenses for the text carrying them. See [DISCLAIMER.md](DISCLAIMER.md) for details.
+The original documentation and label descriptions in this repository are licensed under [CC BY 4.0](LICENSE.md). The labels are optional, self-reported disclosures, not licenses for the text carrying them. See [DISCLAIMER.md](DISCLAIMER.md) for details.

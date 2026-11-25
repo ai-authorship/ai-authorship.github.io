@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HA-AR-AT — Human-authored, AI-reviewed and translated
 
 The content was authored and reviewed by a human. AI reviewed the text and translated it.

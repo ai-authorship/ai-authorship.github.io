@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HA — Human-authored
 
 The content was authored and reviewed by a human, with no AI involvement. Salute the effort, and forgive the occasional typos!

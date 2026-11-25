@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AA — AI-authored
 
 The content was drafted by AI. No human review is indicated by this label; a human supplied the prompt.

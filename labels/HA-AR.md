@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HA-AR — Human-authored, AI-reviewed
 
 The content was authored and reviewed by a human, and it was also reviewed by AI.

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # MA-AT — Mixed-authored, AI-translated
 
 A human and AI both contributed to writing the content, and the human co-author reviewed it. AI also translated the text.

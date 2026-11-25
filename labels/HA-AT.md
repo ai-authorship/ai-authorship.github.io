@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HA-AT — Human-authored, AI-translated
 
 The content was authored and reviewed by a human. AI was used only to translate the text.

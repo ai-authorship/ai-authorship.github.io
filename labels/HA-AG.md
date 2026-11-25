@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HA-AG — Human-authored, AI grammar and proofreading
 
 The content was authored and reviewed by a human. AI was used only for grammar and proofreading corrections.

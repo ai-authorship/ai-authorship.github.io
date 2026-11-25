@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # HA-AG-AT — Human-authored, AI grammar-corrected and translated
 
 The content was authored and reviewed by a human. AI corrected grammar and proofreading issues in the author’s foreign-language text, then translated it.

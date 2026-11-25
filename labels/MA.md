@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # MA — Mixed-authored
 
 A human and AI both contributed to writing the content. The human co-author reviewed it.

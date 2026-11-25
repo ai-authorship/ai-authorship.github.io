@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AT — AI-translated, authorship unspecified
 
 AI translated the content. This label does not specify who authored the source text.
