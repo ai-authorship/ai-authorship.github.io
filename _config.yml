@@ -1,0 +1,13 @@
+title: AI Authorship Labels
+description: A voluntary, self-reported label system explaining how people and AI contributed to text.
+url: https://ai-authorship.github.io
+baseurl: ""
+repository_url: https://github.com/ai-authorship/ai-authorship.github.io
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+

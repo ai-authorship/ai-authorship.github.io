@@ -54,7 +54,7 @@ The labels are process descriptions. They do not certify factual accuracy, detec
 
 ## Using a label
 
-Display the code near the text it describes and link it to the corresponding explanation page. You may include the source language for a translated text, but it is optional for every translation label, including **AT**. If the process does not match a listed combination, do not force it into a code—describe the contributions in plain language.
+See the [website embed guide](how-to-use.md) for copyable HTML snippets that link a displayed label to its explanation page. Display the code near the text it describes and link it to the corresponding explanation page. You may include the source language for a translated text, but it is optional for every translation label, including **AT**. If the process does not match a listed combination, do not force it into a code—describe the contributions in plain language.
 
 ## License and disclaimer
 
