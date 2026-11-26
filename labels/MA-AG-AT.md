@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "MA-AG-AT — Mixed-authored, AI grammar-corrected and translated"
+label_code: MA-AG-AT
+label_type: mixed
+label_name: "Mixed-authored, AI grammar-corrected and translated"
 ---
-
-# MA-AG-AT — Mixed-authored, AI grammar-corrected and translated
 
 A human and AI both contributed to writing the content, and the human co-author reviewed it. AI corrected grammar and proofreading issues in the foreign-language text, then translated it.
 

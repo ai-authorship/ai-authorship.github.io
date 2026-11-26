@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "AA-HR-AT — AI-authored, human-reviewed and AI-translated"
+label_code: AA-HR-AT
+label_type: ai
+label_name: "AI-authored, human-reviewed and AI-translated"
 ---
-
-# AA-HR-AT — AI-authored, human-reviewed and AI-translated
 
 The content was drafted mostly by AI and reviewed by a human, then translated by AI.
 

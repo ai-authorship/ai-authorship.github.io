@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "AT — AI-translated, authorship unspecified"
+label_code: AT
+label_type: translation
+label_name: "AI-translated, authorship unspecified"
 ---
-
-# AT — AI-translated, authorship unspecified
 
 AI translated the content. This label does not specify who authored the source text.
 

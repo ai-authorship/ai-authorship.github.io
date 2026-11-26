@@ -29,6 +29,15 @@ description: Copy and adapt HTML snippets that link an AI authorship label to it
 </a>
 {% endhighlight %}
 
+  <div class="guide-preview">
+    <p class="guide-preview-label">Rendered example</p>
+    <a href="{{ '/labels/HA-AR.html' | relative_url }}"
+       aria-label="AI authorship label: HA-AR, human-authored and reviewed by human and AI"
+       style="display:inline-flex;padding:.4em .7em;border:1px solid #13744c;border-radius:999px;background:#fff;color:#13744c;font:700 13px/1.2 system-ui,sans-serif;text-decoration:none">
+      HA-AR
+    </a>
+  </div>
+
   <p class="guide-hint">Change the destination, code, and accessible label to match the label you are using.</p>
 </section>
 
@@ -53,6 +62,23 @@ description: Copy and adapt HTML snippets that link an AI authorship label to it
   <span aria-hidden="true" style="margin-left:auto;color:#8b8798">↗</span>
 </a>
 {% endhighlight %}
+
+  <div class="guide-preview">
+    <p class="guide-preview-label">Rendered example</p>
+    <a href="{{ '/labels/MA-AR.html' | relative_url }}"
+       aria-label="AI authorship label: MA-AR, mixed-authored and reviewed by human and AI"
+       style="display:flex;align-items:center;gap:14px;max-width:420px;padding:16px 18px;border:1px solid #e5e2ec;border-radius:14px;background:#fff;color:#211e3b;font-family:system-ui,sans-serif;text-decoration:none">
+      <span aria-hidden="true"
+            style="padding:7px 9px;border-radius:7px;background:#fff;color:#245ca6;border:1px solid #245ca6;font-size:12px;font-weight:800">
+        MA-AR
+      </span>
+      <span style="display:grid;gap:3px">
+        <strong style="font-size:14px">Human and AI co-authored</strong>
+        <span style="color:#706d7c;font-size:12px">Reviewed by the human co-author and AI</span>
+      </span>
+      <span aria-hidden="true" style="margin-left:auto;color:#8b8798">↗</span>
+    </a>
+  </div>
 
   <p class="guide-hint">Update the code, destination URL, accessible label, title, and short description together so they all describe the same disclosure.</p>
 </section>

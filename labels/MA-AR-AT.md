@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "MA-AR-AT — Mixed-authored, reviewed and AI-translated"
+label_code: MA-AR-AT
+label_type: mixed
+label_name: "Mixed-authored, reviewed and AI-translated"
 ---
-
-# MA-AR-AT — Mixed-authored, reviewed and AI-translated
 
 A human and AI both contributed to writing the content. The human co-author and AI reviewed it, then AI translated it.
 

@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "AA — AI-authored"
+label_code: AA
+label_type: ai
+label_name: "AI-authored"
 ---
-
-# AA — AI-authored
 
 The content was drafted by AI. No human review is indicated by this label; a human supplied the prompt.
 

@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "MA-AR — Mixed-authored, human and AI reviewed"
+label_code: MA-AR
+label_type: mixed
+label_name: "Mixed-authored, human and AI reviewed"
 ---
-
-# MA-AR — Mixed-authored, human and AI reviewed
 
 A human and AI both contributed to writing the content. The human co-author and AI reviewed it.
 

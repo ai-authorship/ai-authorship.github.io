@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "HA-AG — Human-authored, AI grammar and proofreading"
+label_code: HA-AG
+label_type: human
+label_name: "Human-authored, AI grammar and proofreading"
 ---
-
-# HA-AG — Human-authored, AI grammar and proofreading
 
 The content was authored and reviewed by a human. AI was used only for grammar and proofreading corrections.
 

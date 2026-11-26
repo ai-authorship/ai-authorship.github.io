@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "HA-AR — Human-authored, AI-reviewed"
+label_code: HA-AR
+label_type: human
+label_name: "Human-authored, AI-reviewed"
 ---
-
-# HA-AR — Human-authored, AI-reviewed
 
 The content was authored and reviewed by a human, and it was also reviewed by AI.
 

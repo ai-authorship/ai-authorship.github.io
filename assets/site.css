@@ -136,6 +136,8 @@ a { color: inherit; }
 .footer-links a:hover { color: var(--coral); }
 
 .page-content > h1 { margin-top: 64px; font-size: clamp(34px, 5vw, 52px); letter-spacing: -.05em; line-height: 1.1; }
+.page-content > h1.label-page-title { display: flex; flex-wrap: wrap; align-items: center; gap: .24em; }
+.label-page-title .code { flex: 0 0 auto; }
 .page-content > p, .page-content blockquote { max-width: 760px; }
 .page-content > p { color: #585568; font-size: 16px; }
 .page-content blockquote { margin: 30px 0; padding: 15px 18px; border-left: 3px solid var(--coral); border-radius: 0 10px 10px 0; background: #fff0e9; color: #62535a; }
@@ -190,12 +192,21 @@ a { color: inherit; }
 .page-content pre { overflow-x: auto; margin: 0; padding: 20px; border: 1px solid #383452; border-radius: 13px; background: #211e3b; color: #f8f7fb; line-height: 1.55; tab-size: 2; }
 .page-content pre code { color: inherit; font-size: 12px; white-space: pre; }
 .guide-hint { margin: 10px 0 0; color: var(--muted); font-size: 12px; }
+.guide-preview { margin-top: 14px; padding: 15px 18px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.72); }
+.guide-preview-label { margin: 0 0 11px; color: var(--muted); font-size: 10px; font-weight: 760; letter-spacing: .09em; text-transform: uppercase; }
 .guide-destination { padding: 19px 21px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,255,255,.72); }
 .guide-destination p { margin: 0 0 12px; color: #625f6e; font-size: 13px; }
 .guide-destination p:last-child { margin-bottom: 0; }
 .guide-destination a { color: #51418d; font-weight: 680; text-underline-offset: 3px; }
 .guide-destination code { padding: 2px 5px; border-radius: 4px; background: #eeecf6; color: var(--indigo); }
 .guide-last { margin-bottom: 75px; }
+.label-use { max-width: 850px; margin: 38px 0 75px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,255,255,.72); }
+.label-use summary { padding: 15px 19px; color: var(--ink); cursor: pointer; font-size: 14px; font-weight: 750; }
+.label-use summary::marker { color: #51418d; }
+.label-use[open] summary { border-bottom: 1px solid var(--line); }
+.label-use-content { padding: 16px 19px 19px; }
+.label-use-content p { margin: 0 0 12px; color: #625f6e; font-size: 13px; }
+.label-use-content pre { margin: 0; }
 @media (max-width: 760px) {
   .guide-hero { margin-top: 42px; }
   .guide-hero > p:last-child { font-size: 15px; }

@@ -1,8 +1,10 @@
 ---
 layout: default
+title: "MA — Mixed-authored"
+label_code: MA
+label_type: mixed
+label_name: "Mixed-authored"
 ---
-
-# MA — Mixed-authored
 
 A human and AI both contributed to writing the content. The human co-author reviewed it.
 

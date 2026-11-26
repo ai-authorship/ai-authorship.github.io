@@ -26,7 +26,29 @@
     </header>
 
     <main id="main" class="wrap page-content">
+      {% if page.label_code %}
+        <h1 class="label-page-title"><span class="code code-{{ page.label_type }}">{{ page.label_code }}</span><span> — {{ page.label_name }}</span></h1>
+      {% endif %}
       {{ content }}
+      {% if page.label_code %}
+        {% assign label_color = '#555369' %}
+        {% if page.label_type == 'human' %}{% assign label_color = '#13744c' %}{% endif %}
+        {% if page.label_type == 'ai' %}{% assign label_color = '#a54508' %}{% endif %}
+        {% if page.label_type == 'mixed' %}{% assign label_color = '#245ca6' %}{% endif %}
+        <details class="label-use">
+          <summary>Use this label for your content</summary>
+          <div class="label-use-content">
+            <p>Copy this linked label and place it near the content it describes.</p>
+            {% highlight html %}
+<a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+   aria-label="AI authorship label: {{ page.label_code }}, {{ page.label_name }}"
+   style="display:inline-flex;padding:.4em .7em;border:1px solid {{ label_color }};border-radius:999px;background:#fff;color:{{ label_color }};font:700 13px/1.2 system-ui,sans-serif;text-decoration:none">
+  {{ page.label_code }}
+</a>
+            {% endhighlight %}
+          </div>
+        </details>
+      {% endif %}
     </main>
 
     <footer class="site-footer">
