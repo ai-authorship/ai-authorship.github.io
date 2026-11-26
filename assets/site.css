@@ -226,9 +226,10 @@ a { color: inherit; }
 .sample-code { color: #245ca6; border: 1.5px solid currentColor; background: #fff; }
 
 /* Match the compact HTML embed on the index. */
-.label-card .code, .sample-code {
+.label-card .code, .sample-code, .label-page-title .code {
   display: inline-flex;
   align-items: center;
+  gap: .35em;
   padding: .4em .7em;
   border: 1px solid currentColor;
   border-radius: 999px;

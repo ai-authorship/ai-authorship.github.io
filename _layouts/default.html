@@ -27,7 +27,7 @@
 
     <main id="main" class="wrap page-content">
       {% if page.label_code %}
-        <h1 class="label-page-title"><span class="code code-{{ page.label_type }}">{{ page.label_code }}</span><span> — {{ page.label_name }}</span></h1>
+        <h1 class="label-page-title"><span class="code code-{{ page.label_type }}">{% if page.label_type == 'human' or page.label_type == 'mixed' %}<span class="label-icon" aria-hidden="true">✍️</span>{% endif %}{% if page.label_type == 'ai' or page.label_type == 'mixed' %}<span class="label-icon" aria-hidden="true">🤖</span>{% endif %}{{ page.label_code }}</span><span> — {{ page.label_name }}</span></h1>
       {% endif %}
       {{ content }}
       {% if page.label_code %}
@@ -42,7 +42,8 @@
             {% highlight html %}
 <a href="{{ site.url }}{{ site.baseurl }}{{ page.url }}"
    aria-label="AI authorship label: {{ page.label_code }}, {{ page.label_name }}"
-   style="display:inline-flex;padding:.4em .7em;border:1px solid {{ label_color }};border-radius:999px;background:#fff;color:{{ label_color }};font:700 13px/1.2 system-ui,sans-serif;text-decoration:none">
+   style="display:inline-flex;align-items:center;gap:.35em;padding:.4em .7em;border:1px solid {{ label_color }};border-radius:999px;background:#fff;color:{{ label_color }};font:700 13px/1.2 system-ui,sans-serif;text-decoration:none">
+  {% if page.label_type == 'human' or page.label_type == 'mixed' %}<span aria-hidden="true">✍️</span>{% endif %}{% if page.label_type == 'ai' or page.label_type == 'mixed' %}<span aria-hidden="true">🤖</span>{% endif %}
   {{ page.label_code }}
 </a>
             {% endhighlight %}
